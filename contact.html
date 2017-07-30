@@ -1,47 +1,35 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title></title>
+	<title>Contact</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/sandstone/bootstrap.min.css" rel="stylesheet" integrity="sha384-G3G7OsJCbOk1USkOY4RfeX1z27YaWrZ1YuaQ5tbuawed9IoreRDpWpTkZLXQfPm3" crossorigin="anonymous">
     <link rel="stylesheet" href="CSS/style.css">
+
 </head>
 <body>
-    <div class="navbar">
-        <div class="container">
-            <!--<div class="col-md-9">
-            <i class="glyphicon glyphicon-briefcase icon-feature"></i>
-                            </div> -->
-            <header class="navbar-brand"> Deidra Nguyen</header>
 
-            <ul class="nav navbar-nav navbar-right">
-                <li class="nav-item">
-                    <a class="nav-link active" href="#">Main</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
-                </li>
+    <div class="navbar navbar-default">
+        <div class="container">
+            <a class="navbar-brand" href="https://deecodemonkey.github.io/Bootstrap-Portfolio/index.html"> Deidra Nguyen</a>
+            <ul class="nav navbar-nav pull-right">
+                <li><a href="https://deecodemonkey.github.io/Bootstrap-Portfolio/index.html">About</a></li>
+                <li><a href="https://deecodemonkey.github.io/Bootstrap-Portfolio/portfolio.html">Portfolio</a></li>
+                <li class="active"><a href="https://deecodemonkey.github.io/Bootstrap-Portfolio/contact.html">Contact</a></li>
             </ul>
         </div>
     </div>
 
 
     <div class="container">
-       
-        <div class="row">
-            <div class="col-md-12">
-                <h3 style="font-size: 21px; padding: 0px 0px 15px 0px;">Like what you saw? Please complete the form below to get in touch!</h3>
-            </div>
-        </div>
-        
-        <div class="row">
 
-            <form class="well form-horizontal">
-                <!-- Form Name -->
-                <div class="col-md-12">
-                    <legend>Contact Me</legend>
+        <div class="row">
+            <div class="col-md-8">
+                <form class="well form-horizontal">
+                    <!-- Form Name -->
+                    <div class="col-md-12">
+                        <legend>Contact Me</legend>
                     </div>
                     <!--Visitor Info Input-->
 
@@ -80,7 +68,7 @@
                         <div class="col-md-4 inputGroupContainer">
                             <div class="input-group">
                                 <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
-                                <input name="phone" placeholder="(845)555-1212" class="form-control" type="text">
+                                <input name="phone" placeholder="(000) 000-0000" class="form-control" type="text">
                             </div>
                         </div>
                     </div>
@@ -88,7 +76,7 @@
                     <!--Visitor Comments-->
 
                     <div class="form-group">
-                        <label class="col-md-4 control-label">Comments or Questions</label>
+                        <label class="col-md-4 control-label">Message</label>
                         <div class="col-md-4 inputGroupContainer">
                             <div class="input-group">
                                 <span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
@@ -97,11 +85,17 @@
                         </div>
 
                     </div>
-</form>
-        </div>
+                </form>
+            </div>
+
+                <div class="col-md-4">
+                    <h2>Connect with Me</h2>
+                    <a href="https://github.com/deeCodeMonkey"><img src="css/images/github.png" class="social" alt="GitHub" id="icon"/></a>
+                    <a href="https://www.linkedin.com/in/deidra-nguyen-7391b433/"><img src="css/images/linked.png" class="social" alt="LinkedIn" id="icon"/></a>
+                    <a href="https://stackexchange.com/users/11145415/dee108"><img src="css/images/stack.png" class="social" alt="Stack Overflow" id="icon"/></a>
+                </div>
+
+            </div>
     </div>
-
-
-
 </body>
 </html>

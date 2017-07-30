@@ -1,9 +1,8 @@
-.icon-feature {
-	font-size: 40px;
-    color: red;
+#icon {
+    float: left;
+    width: 50px;
+    height: auto;
+    margin-top: 10px;
+    margin-right: 25px;
 }
 
-#stt {
-    font-size: 40px;
-    color: red;
-}
