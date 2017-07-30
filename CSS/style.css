@@ -6,3 +6,34 @@
     margin-right: 25px;
 }
 
+legend {
+    font-size: 31px;
+}
+
+
+
+#page {
+    background-color: #333;
+}
+
+img {
+    width: 500px;
+    height: auto;
+    float: left;
+    margin: 10px 20px 10px 0px;
+}
+
+#cr {
+    color: lightgrey;
+}
+
+#projectMain {
+    width: 700px;
+    height: auto;
+}
+
+#portfolio_pic {
+    width: 350px;
+    height: auto;
+    margin: 10px 10px 10px 0px;
+}
